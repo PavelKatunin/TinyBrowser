@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E9D7D1FE1AB57150004B4CC0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D7D1FD1AB57150004B4CC0 /* main.m */; };
+		E9D7D2071AB57150004B4CC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9D7D2051AB57150004B4CC0 /* Main.storyboard */; };
+		E9D7D2091AB57150004B4CC0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9D7D2081AB57150004B4CC0 /* Images.xcassets */; };
+		E9D7D20C1AB57150004B4CC0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9D7D20A1AB57150004B4CC0 /* LaunchScreen.xib */; };
+		E9D7D2181AB57150004B4CC0 /* TinyBrowserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D7D2171AB57150004B4CC0 /* TinyBrowserTests.m */; };
+		E9D7D23C1AB571CC004B4CC0 /* NSLayoutConstraint+Helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D7D2231AB571CC004B4CC0 /* NSLayoutConstraint+Helpers.m */; };
+		E9D7D23D1AB571CC004B4CC0 /* NSString+Url.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D7D2251AB571CC004B4CC0 /* NSString+Url.m */; };
+		E9D7D23E1AB571CC004B4CC0 /* NSURLComponents+Helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D7D2271AB571CC004B4CC0 /* NSURLComponents+Helpers.m */; };
+		E9D7D2401AB571CC004B4CC0 /* GoogleSearchEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D7D22F1AB571CC004B4CC0 /* GoogleSearchEngine.m */; };
+		E9D7D2411AB571CC004B4CC0 /* GoogleSearchQueryKeys.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D7D2311AB571CC004B4CC0 /* GoogleSearchQueryKeys.m */; };
+		E9D7D2421AB571CC004B4CC0 /* AddressBar.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D7D2351AB571CC004B4CC0 /* AddressBar.m */; };
+		E9D7D2431AB571CC004B4CC0 /* AddressBarTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D7D2371AB571CC004B4CC0 /* AddressBarTextField.m */; };
+		E9D7D2441AB571CC004B4CC0 /* NavigationButtonsView.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D7D2391AB571CC004B4CC0 /* NavigationButtonsView.m */; };
+		E9D7D2451AB571CC004B4CC0 /* LoadingProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D7D23B1AB571CC004B4CC0 /* LoadingProgressView.m */; };
+		E9D7D2491AB5721B004B4CC0 /* BrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D7D2481AB5721B004B4CC0 /* BrowserViewController.m */; };
+		E9D7D24C1AB57312004B4CC0 /* UIColor+Browser.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D7D24B1AB57312004B4CC0 /* UIColor+Browser.m */; };
+		E9D7D2501AB57541004B4CC0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D7D24F1AB57541004B4CC0 /* AppDelegate.m */; };
+		E9D7D2541AB5755A004B4CC0 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E9D7D2531AB5755A004B4CC0 /* Localizable.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E9D7D2121AB57150004B4CC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9D7D1F01AB57150004B4CC0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9D7D1F71AB57150004B4CC0;
+			remoteInfo = TinyBrowser;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E9D7D1F81AB57150004B4CC0 /* TinyBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TinyBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9D7D1FC1AB57150004B4CC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9D7D1FD1AB57150004B4CC0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E9D7D2061AB57150004B4CC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E9D7D2081AB57150004B4CC0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E9D7D20B1AB57150004B4CC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		E9D7D2111AB57150004B4CC0 /* TinyBrowserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TinyBrowserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9D7D2161AB57150004B4CC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9D7D2171AB57150004B4CC0 /* TinyBrowserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TinyBrowserTests.m; sourceTree = "<group>"; };
+		E9D7D2221AB571CC004B4CC0 /* NSLayoutConstraint+Helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+Helpers.h"; sourceTree = "<group>"; };
+		E9D7D2231AB571CC004B4CC0 /* NSLayoutConstraint+Helpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+Helpers.m"; sourceTree = "<group>"; };
+		E9D7D2241AB571CC004B4CC0 /* NSString+Url.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Url.h"; sourceTree = "<group>"; };
+		E9D7D2251AB571CC004B4CC0 /* NSString+Url.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Url.m"; sourceTree = "<group>"; };
+		E9D7D2261AB571CC004B4CC0 /* NSURLComponents+Helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURLComponents+Helpers.h"; sourceTree = "<group>"; };
+		E9D7D2271AB571CC004B4CC0 /* NSURLComponents+Helpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURLComponents+Helpers.m"; sourceTree = "<group>"; };
+		E9D7D22B1AB571CC004B4CC0 /* Macros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Macros.h; sourceTree = "<group>"; };
+		E9D7D22E1AB571CC004B4CC0 /* GoogleSearchEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoogleSearchEngine.h; sourceTree = "<group>"; };
+		E9D7D22F1AB571CC004B4CC0 /* GoogleSearchEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoogleSearchEngine.m; sourceTree = "<group>"; };
+		E9D7D2301AB571CC004B4CC0 /* GoogleSearchQueryKeys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoogleSearchQueryKeys.h; sourceTree = "<group>"; };
+		E9D7D2311AB571CC004B4CC0 /* GoogleSearchQueryKeys.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoogleSearchQueryKeys.m; sourceTree = "<group>"; };
+		E9D7D2321AB571CC004B4CC0 /* SearchEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchEngine.h; sourceTree = "<group>"; };
+		E9D7D2341AB571CC004B4CC0 /* AddressBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressBar.h; sourceTree = "<group>"; };
+		E9D7D2351AB571CC004B4CC0 /* AddressBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressBar.m; sourceTree = "<group>"; };
+		E9D7D2361AB571CC004B4CC0 /* AddressBarTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressBarTextField.h; sourceTree = "<group>"; };
+		E9D7D2371AB571CC004B4CC0 /* AddressBarTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressBarTextField.m; sourceTree = "<group>"; };
+		E9D7D2381AB571CC004B4CC0 /* NavigationButtonsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationButtonsView.h; sourceTree = "<group>"; };
+		E9D7D2391AB571CC004B4CC0 /* NavigationButtonsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationButtonsView.m; sourceTree = "<group>"; };
+		E9D7D23A1AB571CC004B4CC0 /* LoadingProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadingProgressView.h; sourceTree = "<group>"; };
+		E9D7D23B1AB571CC004B4CC0 /* LoadingProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadingProgressView.m; sourceTree = "<group>"; };
+		E9D7D2471AB5721B004B4CC0 /* BrowserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrowserViewController.h; sourceTree = "<group>"; };
+		E9D7D2481AB5721B004B4CC0 /* BrowserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrowserViewController.m; sourceTree = "<group>"; };
+		E9D7D24A1AB57312004B4CC0 /* UIColor+Browser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Browser.h"; sourceTree = "<group>"; };
+		E9D7D24B1AB57312004B4CC0 /* UIColor+Browser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Browser.m"; sourceTree = "<group>"; };
+		E9D7D24E1AB57541004B4CC0 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E9D7D24F1AB57541004B4CC0 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E9D7D2531AB5755A004B4CC0 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E9D7D1F51AB57150004B4CC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9D7D20E1AB57150004B4CC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E9D7D1EF1AB57150004B4CC0 = {
+			isa = PBXGroup;
+			children = (
+				E9D7D1FA1AB57150004B4CC0 /* TinyBrowser */,
+				E9D7D2141AB57150004B4CC0 /* TinyBrowserTests */,
+				E9D7D1F91AB57150004B4CC0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E9D7D1F91AB57150004B4CC0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E9D7D1F81AB57150004B4CC0 /* TinyBrowser.app */,
+				E9D7D2111AB57150004B4CC0 /* TinyBrowserTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E9D7D1FA1AB57150004B4CC0 /* TinyBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				E9D7D2511AB5755A004B4CC0 /* Resources */,
+				E9D7D24D1AB57541004B4CC0 /* Application */,
+				E9D7D2461AB5721B004B4CC0 /* ViewControllers */,
+				E9D7D2211AB571CC004B4CC0 /* Extensions */,
+				E9D7D22A1AB571CC004B4CC0 /* Helpers */,
+				E9D7D22C1AB571CC004B4CC0 /* Models */,
+				E9D7D2331AB571CC004B4CC0 /* Views */,
+				E9D7D2081AB57150004B4CC0 /* Images.xcassets */,
+				E9D7D1FB1AB57150004B4CC0 /* Supporting Files */,
+			);
+			path = TinyBrowser;
+			sourceTree = "<group>";
+		};
+		E9D7D1FB1AB57150004B4CC0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E9D7D1FC1AB57150004B4CC0 /* Info.plist */,
+				E9D7D1FD1AB57150004B4CC0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E9D7D2141AB57150004B4CC0 /* TinyBrowserTests */ = {
+			isa = PBXGroup;
+			children = (
+				E9D7D2171AB57150004B4CC0 /* TinyBrowserTests.m */,
+				E9D7D2151AB57150004B4CC0 /* Supporting Files */,
+			);
+			path = TinyBrowserTests;
+			sourceTree = "<group>";
+		};
+		E9D7D2151AB57150004B4CC0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E9D7D2161AB57150004B4CC0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E9D7D2211AB571CC004B4CC0 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E9D7D2221AB571CC004B4CC0 /* NSLayoutConstraint+Helpers.h */,
+				E9D7D2231AB571CC004B4CC0 /* NSLayoutConstraint+Helpers.m */,
+				E9D7D2241AB571CC004B4CC0 /* NSString+Url.h */,
+				E9D7D2251AB571CC004B4CC0 /* NSString+Url.m */,
+				E9D7D2261AB571CC004B4CC0 /* NSURLComponents+Helpers.h */,
+				E9D7D2271AB571CC004B4CC0 /* NSURLComponents+Helpers.m */,
+				E9D7D24A1AB57312004B4CC0 /* UIColor+Browser.h */,
+				E9D7D24B1AB57312004B4CC0 /* UIColor+Browser.m */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E9D7D22A1AB571CC004B4CC0 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				E9D7D22B1AB571CC004B4CC0 /* Macros.h */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		E9D7D22C1AB571CC004B4CC0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E9D7D22D1AB571CC004B4CC0 /* SearchEngines */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E9D7D22D1AB571CC004B4CC0 /* SearchEngines */ = {
+			isa = PBXGroup;
+			children = (
+				E9D7D22E1AB571CC004B4CC0 /* GoogleSearchEngine.h */,
+				E9D7D22F1AB571CC004B4CC0 /* GoogleSearchEngine.m */,
+				E9D7D2301AB571CC004B4CC0 /* GoogleSearchQueryKeys.h */,
+				E9D7D2311AB571CC004B4CC0 /* GoogleSearchQueryKeys.m */,
+				E9D7D2321AB571CC004B4CC0 /* SearchEngine.h */,
+			);
+			path = SearchEngines;
+			sourceTree = "<group>";
+		};
+		E9D7D2331AB571CC004B4CC0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E9D7D2341AB571CC004B4CC0 /* AddressBar.h */,
+				E9D7D2351AB571CC004B4CC0 /* AddressBar.m */,
+				E9D7D2361AB571CC004B4CC0 /* AddressBarTextField.h */,
+				E9D7D2371AB571CC004B4CC0 /* AddressBarTextField.m */,
+				E9D7D2381AB571CC004B4CC0 /* NavigationButtonsView.h */,
+				E9D7D2391AB571CC004B4CC0 /* NavigationButtonsView.m */,
+				E9D7D23A1AB571CC004B4CC0 /* LoadingProgressView.h */,
+				E9D7D23B1AB571CC004B4CC0 /* LoadingProgressView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E9D7D2461AB5721B004B4CC0 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E9D7D2471AB5721B004B4CC0 /* BrowserViewController.h */,
+				E9D7D2481AB5721B004B4CC0 /* BrowserViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		E9D7D24D1AB57541004B4CC0 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				E9D7D24E1AB57541004B4CC0 /* AppDelegate.h */,
+				E9D7D24F1AB57541004B4CC0 /* AppDelegate.m */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		E9D7D2511AB5755A004B4CC0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E9D7D2561AB575C8004B4CC0 /* Storyboards */,
+				E9D7D2551AB575BE004B4CC0 /* Xibs */,
+				E9D7D2521AB5755A004B4CC0 /* Strings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E9D7D2521AB5755A004B4CC0 /* Strings */ = {
+			isa = PBXGroup;
+			children = (
+				E9D7D2531AB5755A004B4CC0 /* Localizable.strings */,
+			);
+			path = Strings;
+			sourceTree = "<group>";
+		};
+		E9D7D2551AB575BE004B4CC0 /* Xibs */ = {
+			isa = PBXGroup;
+			children = (
+				E9D7D20A1AB57150004B4CC0 /* LaunchScreen.xib */,
+			);
+			name = Xibs;
+			sourceTree = "<group>";
+		};
+		E9D7D2561AB575C8004B4CC0 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				E9D7D2051AB57150004B4CC0 /* Main.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E9D7D1F71AB57150004B4CC0 /* TinyBrowser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9D7D21B1AB57150004B4CC0 /* Build configuration list for PBXNativeTarget "TinyBrowser" */;
+			buildPhases = (
+				E9D7D1F41AB57150004B4CC0 /* Sources */,
+				E9D7D1F51AB57150004B4CC0 /* Frameworks */,
+				E9D7D1F61AB57150004B4CC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TinyBrowser;
+			productName = TinyBrowser;
+			productReference = E9D7D1F81AB57150004B4CC0 /* TinyBrowser.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E9D7D2101AB57150004B4CC0 /* TinyBrowserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9D7D21E1AB57150004B4CC0 /* Build configuration list for PBXNativeTarget "TinyBrowserTests" */;
+			buildPhases = (
+				E9D7D20D1AB57150004B4CC0 /* Sources */,
+				E9D7D20E1AB57150004B4CC0 /* Frameworks */,
+				E9D7D20F1AB57150004B4CC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9D7D2131AB57150004B4CC0 /* PBXTargetDependency */,
+			);
+			name = TinyBrowserTests;
+			productName = TinyBrowserTests;
+			productReference = E9D7D2111AB57150004B4CC0 /* TinyBrowserTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E9D7D1F01AB57150004B4CC0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = Katunin;
+				TargetAttributes = {
+					E9D7D1F71AB57150004B4CC0 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					E9D7D2101AB57150004B4CC0 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = E9D7D1F71AB57150004B4CC0;
+					};
+				};
+			};
+			buildConfigurationList = E9D7D1F31AB57150004B4CC0 /* Build configuration list for PBXProject "TinyBrowser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E9D7D1EF1AB57150004B4CC0;
+			productRefGroup = E9D7D1F91AB57150004B4CC0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E9D7D1F71AB57150004B4CC0 /* TinyBrowser */,
+				E9D7D2101AB57150004B4CC0 /* TinyBrowserTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E9D7D1F61AB57150004B4CC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9D7D2071AB57150004B4CC0 /* Main.storyboard in Resources */,
+				E9D7D2541AB5755A004B4CC0 /* Localizable.strings in Resources */,
+				E9D7D20C1AB57150004B4CC0 /* LaunchScreen.xib in Resources */,
+				E9D7D2091AB57150004B4CC0 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9D7D20F1AB57150004B4CC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E9D7D1F41AB57150004B4CC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9D7D2401AB571CC004B4CC0 /* GoogleSearchEngine.m in Sources */,
+				E9D7D2431AB571CC004B4CC0 /* AddressBarTextField.m in Sources */,
+				E9D7D2411AB571CC004B4CC0 /* GoogleSearchQueryKeys.m in Sources */,
+				E9D7D23C1AB571CC004B4CC0 /* NSLayoutConstraint+Helpers.m in Sources */,
+				E9D7D23D1AB571CC004B4CC0 /* NSString+Url.m in Sources */,
+				E9D7D2421AB571CC004B4CC0 /* AddressBar.m in Sources */,
+				E9D7D2441AB571CC004B4CC0 /* NavigationButtonsView.m in Sources */,
+				E9D7D2501AB57541004B4CC0 /* AppDelegate.m in Sources */,
+				E9D7D23E1AB571CC004B4CC0 /* NSURLComponents+Helpers.m in Sources */,
+				E9D7D2491AB5721B004B4CC0 /* BrowserViewController.m in Sources */,
+				E9D7D1FE1AB57150004B4CC0 /* main.m in Sources */,
+				E9D7D2451AB571CC004B4CC0 /* LoadingProgressView.m in Sources */,
+				E9D7D24C1AB57312004B4CC0 /* UIColor+Browser.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9D7D20D1AB57150004B4CC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9D7D2181AB57150004B4CC0 /* TinyBrowserTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E9D7D2131AB57150004B4CC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E9D7D1F71AB57150004B4CC0 /* TinyBrowser */;
+			targetProxy = E9D7D2121AB57150004B4CC0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E9D7D2051AB57150004B4CC0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9D7D2061AB57150004B4CC0 /* Base */,
+			);
+			name = Main.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		E9D7D20A1AB57150004B4CC0 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9D7D20B1AB57150004B4CC0 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E9D7D2191AB57150004B4CC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E9D7D21A1AB57150004B4CC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E9D7D21C1AB57150004B4CC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TinyBrowser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E9D7D21D1AB57150004B4CC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TinyBrowser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E9D7D21F1AB57150004B4CC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TinyBrowserTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TinyBrowser.app/TinyBrowser";
+			};
+			name = Debug;
+		};
+		E9D7D2201AB57150004B4CC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TinyBrowserTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TinyBrowser.app/TinyBrowser";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E9D7D1F31AB57150004B4CC0 /* Build configuration list for PBXProject "TinyBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9D7D2191AB57150004B4CC0 /* Debug */,
+				E9D7D21A1AB57150004B4CC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9D7D21B1AB57150004B4CC0 /* Build configuration list for PBXNativeTarget "TinyBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9D7D21C1AB57150004B4CC0 /* Debug */,
+				E9D7D21D1AB57150004B4CC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E9D7D21E1AB57150004B4CC0 /* Build configuration list for PBXNativeTarget "TinyBrowserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9D7D21F1AB57150004B4CC0 /* Debug */,
+				E9D7D2201AB57150004B4CC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E9D7D1F01AB57150004B4CC0 /* Project object */;
+}
